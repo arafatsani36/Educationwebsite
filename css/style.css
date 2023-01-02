@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,600;1,600&family=Nunito:ital,wght@0,200;0,400;0,600;0,700;0,800;1,800;1,1000&display=swap');
+:root{
+    --red:#cf4444;
+    --black:#000000;
+    --white:#fcfafa;
+    --bg-black:#212121;
+    --light-white:#e9ecf2;
+    --blue:#2a74eb;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition:all .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 8rem;
+}
+*::selection{
+    background-color: var(--black);
+    color: var(--white);
+}
+body{
+ background-color: var(--black);      
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: var(--bg-black);
+    cursor: pointer;
+    padding: 1rem 3rem;
+    color: var(--white);
+    font-size: 1.8rem;
+}
+.heading{
+    color: var(--white);
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+
+}
+.heading span{
+    color: var(--red);
+    
+}
+.btn:hover{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+/* header seaction star */
+
+header{
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    background-color:var(--bg-black) ; 
+    padding:2rem 9rem ;
+    align-items: center;
+}
+header .logo{
+    font-size: 2rem;
+    color: var(--white)
+}
+header span{
+    color: var(--red);
+    font-size: 3.2rem;
+    padding-top: 25rem;
+    position: relative;
+}
+header .nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+header .nav ul li {
+   margin: 0 1rem;
+}
+header .nav ul li a{
+   color: var(--red);
+   font-size: 2rem;
+ }
+ header .nav ul li a:hover{
+    color: var(--white);
+}
+#nav-bar{
+    display: none; 
+    font-size: 2.5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+.fa-times{
+    transform: rotate(180deg);
+}
+
+/* home seaction  */
+
+.home{
+    margin-top: 6rem;
+    padding: 2rem 9rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-width: 100%;
+}
+.home .content{
+    flex: 1 1 40rem;
+    text-align: center;
+}
+.home .content h3{
+    font-size: 8rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+
+}
+.home .content h3 span{
+    color: var(--red);
+}
+.home .image{
+    flex: 1 1 40rem;
+}
+.home .image img{
+    width: 100%;
+    height: 100%;
+}
+
+/* count seaction  */
+.count{
+    padding: 2rem 9rem;
+}
+.count .box-countainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem , 1fr) );
+    gap: 1.5rem;
+   align-items: flex-start;
+   
+}
+.count .box-countainer .box{
+    background-color: var(--bg-black);
+    border-radius: .5rem;
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.count .box-countainer .box i{
+    font-size: 5rem;
+    color: var(--red);
+}
+.count .box-countainer .box .content h3{
+    font-size: 3rem;
+    color:var(--blue);
+    margin-bottom:.5rem;
+}
+.count .box-countainer .box .content p{
+    font-size: 1.5rem;
+    color:var(--white);
+    display: block;
+}
+
+/* about seaction  */
+.about{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding: 2rem 9rem;
+
+}
+.about .image{
+    flex: 1 1 40rem;
+}
+.about .image img{
+    width: 100%;
+    height: 100%;
+}
+.about .content{
+    flex: 1 1 40rem;
+    text-align: center;
+}
+.about .content h3{
+    font-size: 6rem;
+    color: var(--blue);
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.about .content p{
+    font-size: 1.9rem;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+/* course seaction star  */
+.couses{
+    padding: 2rem 9rem;
+}
+.couses .slide{
+    background-color: var(--light-white);
+    border-radius: .5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 2rem;
+}
+.couses .slide img{
+    height: 25rem;
+    width: 100%;
+   
+}
+.couses .slide h3{
+   font-size: 2rem;
+   margin: 1.5rem 0;
+   color: var(--red);
+   
+}
+.couses .slide p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--black);
+    
+ }
+
+ .swiper-pagination-bullet{
+    background-color: var(--blue);
+ } 
+ .swiper-pagination-bullet-active{
+    background-color: var(--red);
+ }
+
+ /* teacher slider  */
+ .teachers{
+    padding: 2rem 9rem;
+ }
+ .teachers .slider{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4rem;
+}
+ .teachers .slider img{
+   height: 55rem;
+   width: 100%;
+   object-fit: cover;
+   border-radius: .5rem;
+}
+ .teachers .slider h3{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    color: var(--white);
+    text-align: center;
+}
+  .teachers .slider .share{
+    position: absolute;
+    top: 1rem;
+    left: -10rem;
+}
+  .teachers .slider:hover .share{
+    left: 1rem;
+}
+  .teachers .slider .share a{
+    display: block;
+    padding: 1rem;
+    background-color: var(--white);
+    color: var(--red);
+    margin-top: 1rem;
+    border-radius: .5rem;
+}
+  .teachers .slider .share a:hover{
+    color: var(--black);
+    background-color:var(--blue);
+    
+}
+
+  /* review seaction  */
+.review{
+    padding: 2rem 9rem;
+}
+  .review .slider{
+    height: 30rem;
+    background-color: var(--light-white);
+    border-radius: .5rem;
+    margin-bottom: 4rem;
+}
+  .review .slider p{
+    font-size: 1rem;
+    line-height: 2.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+   .review .slider .image{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.review .slider .image img {
+	width: 7rem;
+	margin-left: .5rem;
+	border-radius: 50rem;
+}
+.review .slider .student-rating h3{
+	font-size: 2rem;
+    margin-bottom: .8rem;
+    color: var(--red);
+}
+.review .slider .student-rating i{
+	font-size: 1rem;
+    color: var(--blue);
+}
+
+/* contract seaction  */
+.contract{
+    padding: 2rem 9rem;
+}
+
+.contract .row{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.contract .row .image{
+    flex: 1 1 40rem;
+}
+.contract .row .image img{
+    width: 100%;
+}
+.contract .row form{
+    flex: 1 1 40rem;
+}
+.contract .row form .box{
+    width: 100%;
+    background-color: var(--bg-black);
+    color: var(--white);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+.contract .row form span{
+    font-size: 1.5rem;
+    color: var(--red);
+}
+.contract .row form .radio{
+    margin-top: 1rem;
+}
+.contract .row form .radio label{
+    font-size: 1.5rem;
+    color: var(--red);
+    margin-left: .5rem;
+    cursor: pointer;
+}
+.contract .row form .radio #female{
+    margin-left: .5rem;
+}
+.contract .row form .radio input{
+   appearance: none;
+   width: 1.5rem;
+   height: 1.5rem;
+   cursor: pointer;
+   background-color: var(--white);
+}
+.contract .row form .radio input:checked{
+    background-color: var(--red);
+    border-radius: 50rem;
+ }
+ .contract .row form .radio #male:checked ~ label[for = "male"]{
+    color: var(--red);
+ }
+ .contract .row form .radio #female:checked ~ label[for = "female"]{
+   color: var(--red);
+}
+
+/* footer seaction  */
+
+.footer{
+    background-color: var(--red);
+    padding: 5rem;
+    text-align: center;
+}
+.footer .socile-icon{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.footer .socile-icon a{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 50%;
+    margin: 0 .3rem;
+    font-size: 1.8rem;
+}
+.footer .socile-icon a:hover{
+   background-color: var(--black);
+   color: var(--white);
+}
+.footer .socile-icon a i{
+    margin-top: .6rem;
+}
+.footer .copyright{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--black);
+}
+.footer .copyright span{
+    color:var(--white);
+}
+
+/* load seaction  */
+.load-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #e9efed;
+    transition:  .5s linear;
+}
+.load-container.fade-out{
+    top:-120%;
+}
+
+
+
+

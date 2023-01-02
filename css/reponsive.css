@@ -1,0 +1,917 @@
+@media only screen and (min-device-width: 890px) and (max-device-width: 1250px) {
+    header .logo{
+        font-size: 1.8rem;
+    }
+    header .nav ul li a{
+        font-size: 1.8rem;
+      }
+    .home{
+        flex-wrap: wrap-reverse;
+    }
+    .home .content h3 {
+        font-size: 5rem;
+    }
+    .home {
+         padding: 1rem 1rem;
+    }
+    
+    .count{
+        padding: 1rem 1rem;
+    }
+    .about {
+        padding: 1rem 1rem; 
+    }
+    .about .content h3 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    .about .content p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    .couses{
+        padding: 1rem 1rem; 
+    }
+    .teachers{
+        padding: 1rem 1rem;
+     }
+    .review{
+        padding: 1rem 1rem;
+    }
+    .contract{
+        padding: 1rem 1rem;
+    }
+    
+}
+@media only screen and (min-device-width: 660px) and (max-device-width: 889px) {
+    html{
+        font-size: 55%;
+    }
+    header {
+        padding: 1.5rem;
+    }
+    #nav-bar{
+        display: inline-block; 
+        
+    }
+    header .nav{
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        border-top: .2rem solid var(--light-white);
+        border-bottom: .2rem solid var(--light-white);
+        background-color: var(--bg-black);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    
+    }
+    header .nav.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    header .nav ul{
+        width: 100%;
+        display: inline-block;
+        padding: 2rem 0;
+       
+    }
+    header .nav ul li {
+        padding: 1.5rem;
+        color: var(--blue);
+    }
+    .home{
+        flex-wrap: wrap-reverse;
+    }
+    .home .content h3 {
+        font-size: 5rem;
+    }
+    .home {
+        padding: 1rem 1rem;
+    }
+    .count{
+        padding: 1rem 1rem;
+    }
+    .about {
+        padding: 1rem 1rem; 
+    }
+    .about .content h3 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    .about .content p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    .couses{
+        padding: 1rem 1rem; 
+    }
+    .teachers{
+        padding: 1rem 1rem;
+     }
+     .review{
+        padding: 1rem 1rem;
+    }
+    .contract{
+        padding: 1rem 1rem;
+    }
+    
+    
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 659px){
+    html{
+        font-size: 55%;
+    }
+    header {
+        padding: 1.5rem;
+    }
+    #nav-bar{
+        display: inline-block; 
+        
+    }
+    header .nav{
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        border-top: .2rem solid var(--light-white);
+        border-bottom: .2rem solid var(--light-white);
+        background-color: var(--bg-black);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    
+    }
+    header .nav.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    header .nav ul{
+        width: 100%;
+        display: inline-block;
+        padding: 2rem 0;
+       
+    }
+    header .nav ul li {
+        padding: 1.5rem;
+        color: var(--blue);
+    }
+    .home{
+        flex-wrap: wrap-reverse;
+    }
+    .home .content h3 {
+        font-size: 4rem;
+    }
+    .home {
+        padding: 1rem 1rem;
+    }
+    .count{
+        padding: 1rem 1rem;
+    }
+    .about {
+        padding: 1rem 1rem; 
+    }
+    .about .content h3 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    .about .content p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    .couses{
+        padding: 1rem 1rem; 
+    }
+    .teachers{
+        padding: 1rem 1rem;
+     }
+     .review{
+        padding: 1rem 1rem;
+    }
+    .contract{
+        padding: 1rem 1rem;
+    }
+    
+}
+@media only screen and (min-width: 380px) and (max-width: 480px) {
+    html{
+        font-size: 55%;
+    }
+    header {
+        padding: 1.5rem;
+    }
+    #nav-bar{
+        display: inline-block; 
+        
+    }
+    header .nav{
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        border-top: .2rem solid var(--light-white);
+        border-bottom: .2rem solid var(--light-white);
+        background-color: var(--bg-black);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    
+    }
+    header .nav.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    header .nav ul{
+        width: 100%;
+        display: inline-block;
+        padding: 2rem 0;
+       
+    }
+    header .nav ul li {
+        padding: 1.5rem;
+        color: var(--blue);
+    }
+    .home{
+        flex-wrap: wrap-reverse;
+    }
+    .home .content h3 {
+        font-size: 4rem;
+    }
+    .home {
+        padding: 1rem 1rem;
+    }
+     .btn {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+    .count{
+        padding: 1rem 1rem;
+    }
+    .about {
+        padding: 1rem 1rem; 
+    }
+    .about .content h3 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    .about .content p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    .couses{
+        padding: 1rem 1rem; 
+    }
+    .teachers{
+        padding: 1rem 1rem;
+     }
+     .review{
+        padding: 1rem 1rem;
+    }
+    .contract{
+        padding: 1rem 1rem;
+    }
+    
+}
+@media only screen and (max-width: 380px) {
+    html{
+        font-size: 50%;
+    }
+    header {
+        padding: 1.5rem;
+    }
+    #nav-bar{
+        display: inline-block; 
+        
+    }
+    header .nav{
+        position: absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        border-top: .2rem solid var(--light-white);
+        border-bottom: .2rem solid var(--light-white);
+        background-color: var(--bg-black);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    
+    }
+    header .nav.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    header .nav ul{
+        width: 100%;
+        display: inline-block;
+        padding: 2rem 0;
+       
+    }
+    header .nav ul li {
+        padding: 1.5rem;
+        color: var(--blue);
+    }
+    .home{
+        flex-wrap: wrap-reverse;
+    }
+    .home .content h3 {
+        font-size: 4rem;
+    }
+    .btn {
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+    }
+    .home {
+        padding: 1rem 1rem;
+    }
+    .count{
+        padding: 1rem 1rem;
+    }
+    .about {
+        padding: 1rem 1rem; 
+    }
+    .about .content h3 {
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+    .about .content p {
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+    }
+    .couses{
+        padding: 1rem 1rem; 
+    }
+    .teachers{
+        padding: 1rem 1rem;
+     }
+    .review{
+        padding: 1rem 1rem;
+    }
+    .contract{
+        padding: 1rem 1rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
